@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Poppins:wght@600&display=swap');
+
+body{
+    background-color: darkblue;
+    font-family: 'Baloo 2', cursive;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #cc0000;
+}
+
+div.menu{
+    background-color: black;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    color:white;
+    max-width: 500px;
+    max-height: 500px;
+}
+img.logo{
+    margin-top: 90px;
+    margin-left: 30px;
+    border-radius: 80%;
+    width: 100px;
+    position: absolute;
+    border: black solid 5px;
+}
+h1.name{
+    margin-left: 50px;
+    font-size: 60px;
+    padding-top: 120px;
+    padding-left: 95px;
+}
+h2.about-me{
+    color:grey;
+    /* opacity: 60%; */
+    margin-left: 60px;
+}
+p{
+    color:white;
+}
+div.about{
+    background-color: grey;
+    filter: opacity(60%);
+    margin-left: 60px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+p.about-me{
+    padding-left: 20px;
+    opacity: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.end{
+    color:transparent
+}
+img.banner{
+    width: 500px;
+    height: 140px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position:absolute;
+    object-fit: cover;
+}
